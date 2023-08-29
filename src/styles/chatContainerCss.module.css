@@ -1,0 +1,11 @@
+.chatContainerCss {
+  display: flex;
+  width: 66vw;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.chatWholeMessage {
+  flex: 1 1 auto;
+  background-color: #adff2f;
+}

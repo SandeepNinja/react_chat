@@ -1,0 +1,11 @@
+.chatListContainerCss {
+  background-color: #adff2f;
+  width: 30vw;
+  border-right: 2px solid black;
+  z-index: 50;
+}
+.commonStyle {
+  background-color: greenyellow;
+  height: 50px;
+  border-bottom: 2px solid gray;
+}

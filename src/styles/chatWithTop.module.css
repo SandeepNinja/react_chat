@@ -1,0 +1,62 @@
+.chatTop {
+  flex: 0 1 auto;
+  background-color: darkorchid;
+  height: 50px;
+  display: flex;
+  position: inherit;
+  align-items: center;
+}
+.chatWithPhoto {
+  flex: 1 1 auto;
+}
+.chatWithName {
+  flex: 1 1 auto;
+  margin-right: 60px;
+}
+.addMorePerson {
+  position: absolute;
+  right: 30px;
+}
+
+/* floatinf div to add more person in chat */
+.floatAddPersonList {
+  /* height: 90px; */
+  /* width: 99px; */
+  border-radius: 10px;
+  padding: 10px 30px 10px 10px;
+  background: deeppink;
+  position: fixed;
+  right: 10px;
+  overflow: auto;
+  visibility: hidden;
+  z-index: 100;
+}
+.addMorePerson:hover > .floatAddPersonList {
+  visibility: visible;
+}
+
+/* .ulStyle {
+} */
+.liStyle {
+  display: flex;
+  align-items: center;
+}
+.profilePic {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profilePic img {
+  height: -webkit-fill-available;
+}
+
+.chattingWithUl {
+  display: flex;
+  list-style-type: none;
+}
+.chattingWithLi {
+  padding: 3px;
+}

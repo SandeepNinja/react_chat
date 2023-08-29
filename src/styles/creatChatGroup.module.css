@@ -1,0 +1,84 @@
+.commonStyle {
+  background-color: darkorchid;
+  height: 50px;
+  border-bottom: 2px solid gray;
+}
+
+.chatTopContainer {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  position: relative;
+}
+/* profile picture div*/
+.profilePic {
+  height: 40px;
+  width: 40px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* profile picture */
+.profilePic img {
+  height: -webkit-fill-available;
+}
+/* chat icon */
+.chatIconDiv {
+  position: absolute;
+  right: 30px;
+}
+.chatIconDiv img {
+  height: 40px;
+}
+/* create new chat */
+.addChat {
+  position: absolute;
+  right: 10px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.chatListTopFloatingDiv {
+  position: fixed;
+  height: 200px;
+  /* width: 202px; */
+  background-color: deeppink;
+  overflow: auto;
+  /* left: 20px; */
+  /* margin-top: 200px; */
+  z-index: 100;
+  border-radius: 10px;
+}
+.chatListTopFloatingDivLi {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.chatListTopFloatingDivLi div {
+  margin-left: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  background-color: green;
+  width: 96vw;
+  padding: 2vh 2vw;
+  height: 96vh;
+}
+.container {
+  margin-top: 10px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+}
+.select {
+  position: absolute;
+  top: 0px;
+}

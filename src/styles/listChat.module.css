@@ -1,0 +1,55 @@
+.commonStyle {
+  background-color: greenyellow;
+  height: 50px;
+  border-bottom: 2px solid gray;
+}
+.commonStyle:hover {
+  background-color: aqua;
+}
+.profilePic {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+/* profile picture */
+.profilePic img {
+  height: -webkit-fill-available;
+}
+.chatMiniInfo {
+  display: flex;
+  overflow: hidden;
+  /* position: relative; */
+}
+.nameAndContentMini {
+  display: flex;
+  flex-direction: column;
+}
+.displayTime {
+  /* position: inherit;
+  right: 5px; */
+  display: contents;
+}
+.displayTime span {
+  font-size: 8px;
+  font-weight: 500;
+}
+.chatContentMini {
+  /* background-color: greenyellow; */
+  width: 20vw;
+  height: 24px;
+  overflow: hidden;
+}
+.chatContentMini {
+  color: dimgray;
+}
+.chattingWithUl {
+  display: flex;
+  list-style-type: none;
+}
+.chattingWithLi {
+  padding: 3px;
+  font-weight: 500;
+}
